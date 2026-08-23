@@ -141,16 +141,11 @@ a:focus-visible, button:focus-visible, [tabindex]:focus-visible {
   position: fixed;
   top: 0; left: 0; right: 0;
   z-index: 100;
-  padding: 22px 0;
-  border-bottom: 1px solid transparent;
-  transition: background 0.4s ease, padding 0.4s ease, border-color 0.4s ease;
-}
-.site-header.is-scrolled {
+  padding: 13px 0;
   background: rgba(20, 23, 27, 0.94);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  padding: 13px 0;
-  border-bottom-color: var(--hairline);
+  border-bottom: 1px solid var(--hairline);
 }
 
 .nav { display: flex; align-items: center; gap: 2rem; }
