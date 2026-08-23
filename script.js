@@ -140,7 +140,7 @@ function initGallery() {
   const counterEl = document.getElementById("lightboxCounter");
 
   const slides = items.map((item) => ({
-    src: item.querySelector("img").src.replace(/w=1000/, "w=1800"),
+    src: item.querySelector("img").src,
     alt: item.querySelector("img").alt,
     caption: item.querySelector(".gallery__caption")?.textContent || ""
   }));
