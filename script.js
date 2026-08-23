@@ -1,8 +1,4 @@
-/* =========================================================
-   HOUSE OF CLIPPERS BARBER SHOP — SITE SCRIPT
-   Central business configuration. Update these values to
-   reuse this template for a different business.
-   ========================================================= */
+
 const BUSINESS = {
   name: "House of Clippers Barber Shop",
   type: "Barber Shop",
@@ -11,9 +7,7 @@ const BUSINESS = {
   address: "1913 Gessner Rd, Houston, TX 77043, United States",
   rating: "4.6",
   reviewCount: 129,
-  // Verified Google Maps reviews URL for House of Clippers Barber Shop.
-  // Replace this value to point the "Read Our Google Reviews" button
-  // at a different listing.
+
   googleMapsReviewsUrl: "https://www.google.com/maps/place/House+of+Clippers+Barber+Shop/@29.8067709,-95.5481296,17z/data=!4m8!3m7!1s0x8640c4dec7efa3a9:0x70ccf74d258a774f!8m2!3d29.8067709!4d-95.5455547!9m1!1b1!16s%2Fg%2F11bbx0g1hr?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D"
 };
 
