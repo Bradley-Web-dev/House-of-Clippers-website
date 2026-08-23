@@ -19,7 +19,6 @@ const BUSINESS = {
 
 document.addEventListener("DOMContentLoaded", () => {
   populateBusinessInfo();
-  initStickyNav();
   initMobileMenu();
   initSmoothScroll();
   initScrollReveal();
@@ -42,18 +41,6 @@ function populateBusinessInfo() {
   document.querySelectorAll("#reviewsCta, #footerReviewsLink").forEach((el) => {
     el.href = BUSINESS.googleMapsReviewsUrl;
   });
-}
-
-/* ---------- Sticky navbar scroll state ---------- */
-function initStickyNav() {
-  const header = document.getElementById("siteHeader");
-  if (!header) return;
-
-  const setState = () => {
-    header.classList.toggle("is-scrolled", window.scrollY > 24);
-  };
-  setState();
-  window.addEventListener("scroll", setState, { passive: true });
 }
 
 /* ---------- Mobile hamburger navigation ---------- */
