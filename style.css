@@ -530,15 +530,15 @@ a:focus-visible, button:focus-visible, [tabindex]:focus-visible {
     repeating-linear-gradient(90deg, rgba(237,230,216,0.05) 0 1px, transparent 1px 64px),
     var(--ink);
 }
-.location__deco::after {
-  content: '';
-  position: absolute; top: 50%; left: 50%;
-  width: 13px; height: 13px;
-  margin: -7px 0 0 -7px;
-  background: var(--brass-bright);
-  border-radius: 50%;
-  box-shadow: 0 0 0 9px rgba(216, 178, 124, 0.15);
+
+.location__deco img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
+
 .location__info { padding: 3.6rem; display: flex; flex-direction: column; gap: 1.15rem; justify-content: center; }
 .location__info h3 { font-size: 1.6rem; }
 .location__row { display: flex; align-items: center; gap: 0.85rem; color: var(--linen-dim); font-size: 0.95rem; }
